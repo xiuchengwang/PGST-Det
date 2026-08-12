@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local configuration and credentials
+.env
+.env.*
+*.local
+
+# Datasets, checkpoints, and generated outputs
+data/
+datasets/
+checkpoints/
+weights/
+outputs/
+runs/
+*.pt
+*.pth
+*.ckpt
