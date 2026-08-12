@@ -52,14 +52,12 @@ PGST-Det improves mean IoU by **10.96 percentage points** and lowers Fa in every
 
 ### EV-Flying Bird/Insect
 
-The source-sequence-disjoint evaluation includes frozen-weight transfer from EV-UAV and dataset-specific adaptation. Frozen transfer uses target-validation operating-point calibration and is not presented as strict zero-shot deployment.
+The source-sequence-disjoint evaluation uses frozen-weight transfer from EV-UAV. It applies the EV-UAV-trained weights without target-domain updates, uses target-validation operating-point calibration, and is not presented as strict zero-shot deployment.
 
-| Setting | Method | IoU (%) ↑ | ACC (%) ↑ | Pd (%) ↑ | Fa (10<sup>-4</sup>) ↓ |
-|---|---|---:|---:|---:|---:|
-| Frozen transfer | EV-SpSegNet | 17.31 | 46.08 | **23.43** | 134.784 |
-| Frozen transfer | **PGST-Det** | **30.67** | **58.03** | 18.98 | **58.745** |
-| Dataset-specific adaptation | EV-SpSegNet | 70.14 | **95.01** | **67.64** | 14.078 |
-| Dataset-specific adaptation | **PGST-Det** | **71.77** | 94.85 | 64.25 | **13.656** |
+| Method | IoU (%) ↑ | ACC (%) ↑ | Pd (%) ↑ | Fa (10<sup>-4</sup>) ↓ |
+|---|---:|---:|---:|---:|
+| EV-SpSegNet | 17.31 | 46.08 | **23.43** | 134.784 |
+| **PGST-Det** | **30.67** | **58.03** | 18.98 | **58.745** |
 
 Under frozen-weight transfer, PGST-Det improves IoU by **13.36 percentage points** and reduces Fa by **56.4%** relative to EV-SpSegNet.
 
@@ -96,7 +94,7 @@ Commands in this section will be added together with the implementation so that 
 
 ## 💻 Training
 
-The release will provide the complete configurations used for the matched EV-UAV repetitions and EV-Flying experiments. Configuration files will record optimization, augmentation, checkpoint selection, and validation-threshold selection settings.
+The release will provide the complete configurations used for the matched EV-UAV repetitions and EV-Flying frozen-weight evaluation. Configuration files will record optimization, augmentation, checkpoint selection, and validation-threshold selection settings.
 
 Training commands will be documented after the implementation is public.
 
