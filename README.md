@@ -30,13 +30,6 @@ PGST-Det operates directly on sparse asynchronous measurements and returns an ev
 
 ![PGST-Det overview](figures/method_overview.png)
 
-| Component | Description |
-|---|---|
-| **PTVE** | Enriches occupied voxels with event density, polarity composition, and temporal-distribution statistics. |
-| **PGST-Net** | Organizes fragmented trajectories through multiscale sparse convolutions and polarity-informed branch gating. |
-| **PSTC** | Combines all-polarity support with same-polarity prediction-confidence support and local polarity-composition consistency to weight event-level supervision. |
-| **TPZ** | Applies label-conditioned crop-and-zoom augmentation while preserving scarce target-event evidence. |
-
 ## 📊 Results
 
 The values below follow the current manuscript protocol and cover frame-based, SNN/event-frame, voxel-based, and sparse-event methods. **ACC** follows the EV-UAV benchmark notation and measures target-event recall rather than background-dominated global accuracy. Lower **Fa** is better. Bold and underlined values indicate the best and second-best results, respectively.
