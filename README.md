@@ -8,11 +8,11 @@ Xiucheng Wang<sup>1</sup>, Hongguang Li<sup>1,&#8224;</sup>, Xinjun Li<sup>2</su
 
 (&#8224; corresponding author)
 
-Submitted to <i>Chinese Journal of Aeronautics (CJA)</i>
+Submitted to <i>Aerospace Science and Technology (AST)</i>
 
 <a href="https://github.com/xiuchengwang/PGST-Det">
 <img src="https://img.shields.io/badge/Repository-PGST--Det-orange" alt="PGST-Det Repository"></a>
-<img src="https://img.shields.io/badge/Paper-CJA%20Submission-blue" alt="Submitted to CJA">
+<img src="https://img.shields.io/badge/Paper-AST%20Submission-blue" alt="Submitted to AST">
 <img src="https://img.shields.io/badge/Code-Upon%20Acceptance-green" alt="Code Status">
 </div>
 
@@ -92,7 +92,7 @@ The EV-UAV examples below contain cluttered and sparse tiny-target trajectories.
 
 ## 🔧 Usage
 
-This repository accompanies the CJA submission. The reproducible implementation will be published here upon acceptance and will include:
+This repository accompanies the AST submission. The reproducible implementation will be published here upon acceptance and will include:
 
 - [ ] Source code for PGST-Det
 - [ ] Environment and dependency specification
