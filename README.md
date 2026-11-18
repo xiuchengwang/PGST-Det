@@ -1,10 +1,9 @@
 <div align="center">
 <h1>Beyond Continuity: Polarity-Conditioned Spatiotemporal Support for Event-Based Tiny Aerial Target Detection</h1>
 
-Xiucheng Wang<sup>1</sup>, Hongguang Li<sup>1,&#8224;</sup>, Xinjun Li<sup>2</sup>, Wenhu Fan<sup>2</sup>
+Xiucheng Wang, Hongguang Li<sup>&#8224;</sup>, Xinjun Li
 
-<sup>1</sup>Institute of Unmanned Systems, Beihang University<br>
-<sup>2</sup>School of Mechanical Engineering and Automation, Beihang University
+Institute of Unmanned Systems, Beihang University
 
 (&#8224; corresponding author)
 
